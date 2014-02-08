@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Registeration form</title>
+		
+		<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+		
+		<link rel="stylesheet" href="../css/form.css" type="text/css" />
+		
+	</head>
+	
+	<body>
+	
+		<form>
+			
+			<header id="page_header">
+			
+				<img src="../bus.jpg" alt="Bus logo" class="bus"/>
+				<h1 class="head">Bus ticket booking</h1>
+				
+			</header>
+			
+			<section id="section">
+			
+				<h3>Fill in the details below</h3><br />			
+					
+				<label for="source" >Source</label><select name="source" id="s1">
+				
+					<option value="chennai">Chennai</option>
+					
+					<option value="bangalore">Bangalore</option>
+					
+					<option value="nagercoil">Nagercoil</option>
+				</select>
+				    
+				<label for="destination">Destination</label><select name="destination" id="s2"><br />
+				
+					<option value="chennai">Chennai</option>
+					
+					<option value="bangalore">Bangalore</option>
+					
+					<option value="nagercoil">Nagercoil</option>
+				</select>
+				
+				<h4>Select the type of bus</h4>
+				
+				<input type="checkbox"  id="sleeper" /><label for="sleeper">Sleeper</label>
+				
+				<input type="checkbox"  id="a/c_semi-sleeper" /><label for="a/c_semi_sleeper">A/C semi Sleeper</label>
+				
+				<input type="checkbox"  id="a/c_sleeper" /><label for="a/c_sleeper">A/C Sleeper</label><br />
+				
+				<input type="submit" value="Find bus" /><br />
+				
+				<label for="name">Name:</label><input type="text" id="name" maxlength="5"/><br />
+				
+				<input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+				
+				<input type="radio" name="gender" value="female" id="female"><label for="female">Female</label><br />
+				
+				<label for="address">Address:</label><textarea></textarea><br />
+				
+				<input type="reset" value="Reset" />
+				
+				<input type="submit" value="Submit" />
+				
+			</section>
+			
+		</form>
+		
+	</body>
+	
+</html>
